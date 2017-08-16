@@ -26,7 +26,7 @@ class authorBio extends React.Component {
     return(
       <p style={style.p}>
       <Link to={prefixLink('/about/')}>
-        <img src={prefixLink('/author.png')} alt={config.authorName} style={style.img} />
+        <img src="https://s3.eu-west-2.amazonaws.com/io1937/ghpages/linkedin.jpg" alt={config.authorName} style={style.img} />
       </Link>
       <span>
         {config.authorBio}
