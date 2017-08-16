@@ -4,9 +4,24 @@
 
 # Installation
 ---
-Install this starter (assuming Gatsby is installed) by running from your CLI: 
+Install and run: 
 ```
-gatsby new clean gh:brianstone/gatsby-starter-clean
+git clone https://github.com/cerico/kennedy
+cd kennedy
+npm install
+npm run dev
+```
+
+# Write new post
+
+```
+npm run post
+```
+
+# Build 
+
+```
+npm run build
 ```
 
 # Deploy
