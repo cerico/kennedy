@@ -40,8 +40,10 @@
   "scripts": {
     "build": "gatsby build",
     "post": "node utils/post.js",
-    "deploy": "gatsby build --prefix-links && gh-pages -d public",
-    "netl": "cd public && netlify deploy && git add . && git commit -m 'new post'",
+    "deploy": "gatsby build && gh-pages -d public",
+    "commit": "cd public && git add . && git commit -m 'new post'",
+    "gh": "npm run commit && git push origin master", 
+    "netl": "npm run commit && netlify deploy", 
     "dev": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
