@@ -4,6 +4,7 @@ gh:
 	ls
 	git add .
 	git commit -m "new post"
+	git remote -v
 	git push origin master
 
 netl:
