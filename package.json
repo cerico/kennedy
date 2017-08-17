@@ -41,7 +41,7 @@
     "build": "gatsby build",
     "post": "node utils/post.js",
     "deploy": "gatsby build --prefix-links && gh-pages -d public",
-    "netl": "cd public && netlify deploy",
+    "netl": "cd public && netlify deploy && git add . && git commit -m 'new post'",
     "dev": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
