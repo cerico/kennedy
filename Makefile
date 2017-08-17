@@ -1,11 +1,9 @@
 gh:
 	./node_modules/gatsby/bin/gatsby.js build
-	cd public
+	cd public && git remote -v
 	ls
 	git add .
 	git commit -m "new post"
-	git remote -v
-	git push origin master
 
 netl:
 	gatsby build
