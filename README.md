@@ -26,4 +26,7 @@ npm run build
 
 # Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cerico/kennedy
+```
+npm run deploy (github pages)
+npm run netl (netlify
+```
