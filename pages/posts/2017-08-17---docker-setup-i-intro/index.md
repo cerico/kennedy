@@ -6,7 +6,7 @@ layout: post
 
 Intro: 
 
-In this series we're going to look at how to build a fully containerized full stack application running locally and in the cloud. We're going to use the following technologies
+In this series we're going to look at how to build a fully containerized full stack application running locally and in the cloud. We're going to use the following.
 
 1. Docker
     * Docker Machine
@@ -15,7 +15,7 @@ In this series we're going to look at how to build a fully containerized full st
 3. Clojure
 4. Vanilla JS 
     * Webpack
-5. CoreOs
+5. CoreOS
 6. Deployment
     * Exoscale
     * AWS
