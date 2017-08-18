@@ -1,3 +1,5 @@
+import catchLinks from 'catch-links';
+
 export function fixLinks (ref, router) {
     catchLinks(ref, (href) => {
       const ext = href.split('.').pop().toLowerCase()
