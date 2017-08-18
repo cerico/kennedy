@@ -105,14 +105,14 @@ Sunburst-like style (c) Vasily Polovnyov <vast@whiteants.net>
 }
 
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Georgia', sans-serif;
 }
 
 body {
   background: #fcfcfa;
   color: #333;
   font-family: "PT Serif", serif;
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.2em;
   margin: 1em auto 4em auto;
   max-width: 720px;
